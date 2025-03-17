@@ -1,0 +1,38 @@
+{
+    "dataset_summary": {
+        "total_images": 273,
+        "class_counts": {
+            "Leafspot Scale 1": 37,
+            "Leafspot Scale 2": 40,
+            "Leafspot Scale 3": 48,
+            "Leafspot Scale 4": 27,
+            "Leafspot Scale 5": 56,
+            "Leafspot Scale 6": 65
+        }
+    },
+    "image_properties": {
+        "unique_dimensions": 4,
+        "avg_file_size_kb": 6676.7474029876375,
+        "file_formats": {
+            ".jpg": 273
+        }
+    },
+    "image_quality": {
+        "avg_brightness": 116.48679868659178,
+        "avg_contrast": 52.857487368714615,
+        "avg_blur_score": 210.99396974989307
+    },
+    "issues_summary": {
+        "duplicates": 0,
+        "corrupted": 0,
+        "very_low_brightness": 0,
+        "very_high_brightness": 0,
+        "very_blurry": 66,
+        "unusual_aspect_ratio": 0,
+        "outlier_size": 177
+    },
+    "cleaning_recommendations": [
+        "Consider removing or enhancing 66 blurry images.",
+        "Address class imbalance through augmentation of minority classes or sampling strategies."
+    ]
+}

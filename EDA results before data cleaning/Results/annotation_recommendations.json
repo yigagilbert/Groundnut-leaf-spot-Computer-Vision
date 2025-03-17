@@ -1,0 +1,28 @@
+{
+    "annotation_type": "semantic_segmentation",
+    "tools": [
+        "LabelMe",
+        "CVAT",
+        "Supervisely"
+    ],
+    "approach": "Use pixel-level segmentation to mark all leaf spot areas. This will provide the most detailed information for severe cases.",
+    "special_considerations": [
+        "Focus on accurately marking boundaries between healthy and diseased tissue.",
+        "Address class imbalance by ensuring thorough annotation of minority classes."
+    ],
+    "annotation_schema": {
+        "classes": [
+            "leaf",
+            "leaf_spot"
+        ],
+        "attributes": {
+            "leaf": [
+                "healthy",
+                "diseased"
+            ],
+            "leaf_spot": [
+                "severity_scale"
+            ]
+        }
+    }
+}
